@@ -14,7 +14,7 @@ div {
 
 .btn {
   font-size: 1.125em;
-  padding: 0.75em;
+  padding: 0.4em;
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
@@ -38,7 +38,7 @@ div {
 
 .btn-primary {
   color: #fff;
-  background-color: #000;
+  background-color: #333;
 }
 
 .btn-subtle {
@@ -55,4 +55,20 @@ div {
 .btn-warning {
   color: #fff;
   background-color: #f33;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
